@@ -26,8 +26,8 @@ namespace Kantilever.WarehouseService.Spec.Features
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en"), "Features", "Stock management", ("    As a warehouse manager\r\n    I want to manage article stock\r\n    So that I can" +
-                " accurately track inventory"), global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en"), "Features", "Stock management", "    As a warehouse manager\r\n    I want to manage article stock\r\n    So that I can" +
+                " accurately track inventory", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
         
         private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
         

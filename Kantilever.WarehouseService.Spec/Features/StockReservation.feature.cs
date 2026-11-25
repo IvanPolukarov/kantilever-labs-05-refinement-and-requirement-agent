@@ -26,8 +26,8 @@ namespace Kantilever.WarehouseService.Spec.Features
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en"), "Features", "Stock reservation", ("    As a sales system\r\n    I want to reserve stock for orders\r\n    So that invent" +
-                "ory is correctly allocated before orders are fulfilled"), global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en"), "Features", "Stock reservation", "    As a sales system\r\n    I want to reserve stock for orders\r\n    So that invent" +
+                "ory is correctly allocated before orders are fulfilled", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
         
         private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
         
